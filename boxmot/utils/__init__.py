@@ -51,4 +51,4 @@ def configure_logging(main_only: bool = True):
     )
     return logger
     
-configure_logging()
+# configure_logging() # Disabled: library should not override global logging on import
